@@ -20,7 +20,7 @@ N/W Layer - tcp/udp (high performance)
 
 ### SSL/TLS Offloading(Termination)
 Client to LB -> https (secure)
-LB to Backend(TG) -L> through google network (can disable ssl/tls)
+LB to Backend(TG) -> through google network (can disable ssl/tls)
 
 ### Choosing load balancer
 - https - regional/global
