@@ -38,4 +38,7 @@ Egress
 
 Each rule also has - protocol, port, action(allow/deny), priority, enforcement rule(enabled/disabled)
 
-
+Pending:
+Shared VPC
+VPC Peering
+Hybrid Cloud
