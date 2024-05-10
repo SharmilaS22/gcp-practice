@@ -48,7 +48,7 @@ HA - auto failover
 - Cloud playground to interact with DB, table etc
 - Strong transactional consistency
 - Scales to PBs of Data
-- Scares horizontally for both reads and rights - CloudSQL provides read replica, but you can't scale write operations
+- **Scares horizontally for both reads and writes** - CloudSQL provides read replica, but you can't scale write operations
 - Have both regional(3 RW replicas in 3 zones) and multi regional configurations
 - Expensive, compared to CloudSQL
 - Can export data
@@ -57,7 +57,7 @@ HA - auto failover
 -----
 ### Cloud Datastore - NoSQL
 - Highly scalable
-- for Few TBs of data (for bigger volumes, BigTable is recommended)
+- for **Few TBs** of data (for bigger volumes, BigTable is recommended)
 - Supports transaction with SQL like queries, does not support joins or sum operation
 - Use cases with flexible schema
 - Can export data from Gloud CLI?
@@ -66,13 +66,14 @@ HA - auto failover
 - multi device access
 - offline mode
 - data sync across multiple devices
-- provides client side libs - for all platforms
+- **strong consistency**
+- provides **client side libs** - for all platforms
 - Can use **datastore mode** to migrate from datastore / use **native mode** for fresh db
 
 ---
 
 ### Cloud BigTable (HBase - OSS)
-- PBs of data 
+- PBs of data  (>10TB)
 - Not serverless, scale horizontally
 - Wide columns (columns of columns - grouping of columns)
 - only single row transaction is supported
