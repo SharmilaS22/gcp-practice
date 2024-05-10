@@ -15,3 +15,14 @@ Load balancing, Auto scaling, Attaching storage, network interfaces, boot disk(A
 - Instance template (launch template)
     Can't modify the template after creating
 
+
+### Live migration
+
+- during maintainance
+- migrate the vm instance to another host(same zone) - not supported for GPUs
+
+## Availability Policy
+- On host maintainance - migarting the VM (is default option)
+- can also set to stop the instance if okay with downtime
+- Automatic Restart - restart when terminated due to non-user-initiated reasons
+

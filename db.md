@@ -1,3 +1,10 @@
+- Availability - 4 9's 99.99% is good
+- Durability   - 11 9's 99.999999999% is good
+
+Strong consistency - sync replication to all (for usecases needing it)
+
+Read-after-write consistency - write is fast, updates are slow
+---
 ## Cloud SQL
 
 It supports MySQL, PostgreSQL and SQL server. 
